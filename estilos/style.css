@@ -1,0 +1,181 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Passion+One:wght@400;700;900&display=swap');
+/* configurações gerais */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* configurações do corpo */
+body {
+    background-color: #6b30bd42;
+    color: #1B1C41;
+
+    font-family: "Cabin";
+    font-weight: 400;
+
+}
+/* configurações do cabeçalho */
+header {
+    background-color: #b526cb88;
+    
+    padding: 2rem;
+
+    text-align: center;
+}
+/* configuração p do cabeçalho */
+header > p {
+    font-size: 1.1rem;
+}
+/* configurações do conteúdo principal */
+main {
+    padding: 2rem;
+
+    display: flex;
+    flex-direction: column;
+  
+    gap: 2.5rem;
+}
+/* configurações ref a introdução */
+section.introducao {
+     display: flex;
+     flex-shrink: 1;
+     gap: .2rem;
+     flex-flow: column nowrap;
+
+     padding: 1.5rem;
+     margin: auto;
+
+     font-size: 1.1rem;
+     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.24);
+     text-align: center;
+
+     color: black;
+     border: 0.5px solid black;
+     width: 100%;
+     height: 100%;
+}
+
+section.introducao > p {
+    font-size: 1.2rem;
+}
+/* configurações ref aos h2 */
+section, h2 {
+    
+    font-weight: lighter;
+    color: black;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.342);
+}
+/* configurações do input checkbox e radio */
+input[type="radio"], input[type="checkbox"] {
+   accent-color: #B526CB;
+}
+/* configuraçoes do input text,passowrd */
+input[type="text"],  input[type="password"], input[type="date"], input[type="email"]  {
+
+    margin-top: 5px;
+    width: 100%;
+    padding: 0.4rem;
+    border: 2px solid #B526CB;
+    outline: none;
+    border-radius: 50px;
+    background-color: transparent;
+}
+
+input::placeholder {
+  color: #69158C;
+}
+
+select {
+    border: none;
+    border-radius: 5px;
+    color: #B526CB;
+    background-color: #b526cb46; 
+    cursor: pointer;
+    outline: none;
+
+}
+
+ figure > figcaption {
+    text-align: center;
+}
+img {
+    display: block;
+    margin: 0 auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+
+    
+}
+
+
+th {
+    background-color: #b526cb88;
+    color: black;
+    font-weight: bolder;
+    padding: 0.5rem;
+
+    border: 1px solid black;
+}
+
+td {
+    color:  #1B1C41;
+    padding: 0.5rem;
+    text-align: center;
+
+    border: 1px solid black;
+}
+
+tfoot td {
+    background-color: #b526cb88;
+    margin-top: 10px;
+}
+
+details {
+    background-color: #b526cb88;
+    border-radius: 5px;
+    padding: .5rem;
+}
+
+details, summary {
+    color: #240529;
+    margin: 0.5rem;
+    cursor: pointer;
+}
+
+ol {
+    margin-left: 1rem;
+    columns: 2;
+}
+
+ol > li {
+    padding: 0.2rem;
+}
+
+fieldset {
+    border: 2px solid #1B1C41;
+    border-radius: 5px;
+    padding: 2rem;
+}
+
+legend {
+    color: black;
+    padding: 0 0.3rem ;
+}
+textarea {
+    
+    border-radius: 5px;
+    border: 1px solid black;
+    outline: none;
+    background-color: transparent;
+}
+
+footer > p {
+    text-align: center;
+    background-color: black;
+    color: white;
+}
