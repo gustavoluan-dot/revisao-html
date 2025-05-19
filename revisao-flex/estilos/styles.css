@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    
+
+    background-color: #1e293b;
+    height: 100vh;
+    width: 100vw;
+    padding: 10px;
+    
+    gap: 40px;
+
+    justify-content: space-between;
+    align-items: center;
+}
+
+.item {
+    background-color: #7e22ce;
+
+    color: white;
+    font-size: 22px;
+    border-radius: 5px;
+    height: 100px;
+    width: 100px;
+    
+}
+
+.item2 {
+   align-self: top;
+}
