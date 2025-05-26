@@ -1,0 +1,36 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+#container {  /* # é id */
+  display: grid;
+  gap: 10px;
+  grid-template-rows: 100px;
+}
+
+header {
+  align-self: center;
+  background-color: purple;
+}
+
+aside {
+    background-color: rgba(0, 0, 255, 0.616);
+}
+
+article {
+    background-color: rgb(60, 255, 0);
+}
+
+section {
+    background-color: rgb(151, 151, 216);
+}
+
+footer {
+    background-color: rgb(255, 0, 0);
+}
+
+
+
+
